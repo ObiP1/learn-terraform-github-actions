@@ -1,4 +1,4 @@
-name: "Terraform"
+name: "Adlumin"
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   terraform:
-    name: "Terraform"
+    name: "Workflow Demo"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
